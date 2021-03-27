@@ -25,7 +25,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=&message=SASS&color=f0a5ca&style=for-the-badge&logo=sass"/>
+  <img src="https://img.shields.io/static/v1?label=&message=CSS3&color=1572B6&style=for-the-badge&logo=css3"/>
   <img src="https://img.shields.io/static/v1?label=&message=HTML5&color=ed7c5c&style=for-the-badge&logo=html5"/>
   <img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=0d0c0c&style=for-the-badge&logo=JavaScript"/>
 </p>
