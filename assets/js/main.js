@@ -11,12 +11,12 @@ form.addEventListener('submit', function (event) {
     const altura = Number(inputAltura.value); //Convertendo para number para fazer verificação
 
     /* ===== Verificação =====*/
-    if (!peso) {
+    if (!peso || peso > 500) {
         setResultado('Peso Inválido!', false);
         return;
     }
 
-    if (!altura) {
+    if (!altura || altura > 3) {
         setResultado('Altura Inválida!', false);
         return;
     }
