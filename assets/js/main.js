@@ -3,6 +3,9 @@ const form = document.querySelector('#form');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault(); //Impede que o navegador recarregue a página
+    
+    const maxPeso = 500;
+    const maxAltura = 3;
 
     const inputPeso = event.target.querySelector('#peso');
     const inputAltura = event.target.querySelector('#altura'); //Pegando os dados dos inputs
@@ -11,12 +14,12 @@ form.addEventListener('submit', function (event) {
     const altura = Number(inputAltura.value); //Convertendo para number para fazer verificação
 
     /* ===== Verificação =====*/
-    if (!peso || peso > 500) {
+    if (!peso || peso > maxPeso) {
         setResultado('Peso Inválido!', false);
         return;
     }
 
-    if (!altura || altura > 3) {
+    if (!altura || altura > maxAltura) {
         setResultado('Altura Inválida!', false);
         return;
     }
